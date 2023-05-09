@@ -3,6 +3,7 @@
 # Created on: 29-03-2023
 # Authors: TANZ
 # Version: 1.0
+# URL: https://www.iwanttfc.com/
 
 import base64
 import requests
@@ -112,7 +113,7 @@ if confirm == 'y':
 
     title = license.split("=")[-3].replace("&UserAuthentication","").title()
     path = r'KEYS\\'
-    with open(path+ "IWANTTFC_KEYS.txt", 'a') as f:
+    with open(path + "IWANTTFC_KEYS.txt", 'a') as f:
         with redirect_stdout(f):
             f.write('\n')
             f.write('\n' + title)
