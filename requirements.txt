@@ -1,0 +1,6 @@
+xmltodict
+protobuf==3.20.1
+pycryptodomex
+requests
+glob
+shutil
